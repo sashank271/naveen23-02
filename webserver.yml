@@ -1,5 +1,5 @@
 ---
-- hosts:
+- hosts: all
   become: yes
   tasks:
    - name: I want install webserverin my ansible nodes
