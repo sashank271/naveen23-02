@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+   - name: I wnat install webservice and tomcat in my node
+     apt: 
+      name: apache2
+      service: present
