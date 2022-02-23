@@ -2,8 +2,9 @@
 - hosts: all
   become: yes
   tasks:
-   - name: I want install webserver in my node
-     apt:
+  - name: I want install webserver
+    apt:
       name: apache2
       service: started
+
       
