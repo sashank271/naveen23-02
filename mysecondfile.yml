@@ -3,6 +3,6 @@
   become: yes
   tasks:
    - name: This is my second yamal file
-  apt:
-     name: apache2
-     state: present
+     apt:
+      name: apache2
+      state: present
